@@ -1,0 +1,48 @@
+{
+    "name": "my-dataset",
+    "resources": [
+      {
+        "path": "Facts.csv",
+        "schema": {
+          "fields": [
+            {
+              "name": "Country",
+              "type": "string"
+            },
+            {
+              "name": "Year",
+              "type": "integer"
+            },
+            {
+              "name": "Area",
+              "type": "number"
+            },
+            {
+                "name": "Population",
+                "type": "number"
+              },
+              {
+                "name": "GDP_per_capita",
+                "type": "number"
+              },
+              {
+                "name": "Population_density",
+                "type": "number"
+              },
+              {
+                "name": "Vehicle_ownership",
+                "type": "number"
+              },
+              {
+                "name": "Total_road_deaths",
+                "type": "number"
+              },
+              {
+                "name": "Road_deaths_per_Million_Inhabitants",
+                "type": "number"
+              }
+          ]
+        }
+      }
+    ]
+  }
